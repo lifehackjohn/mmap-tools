@@ -113,7 +113,6 @@ def _create_new(mindmap: MindMap, path: Path) -> Path:
     
     # Build minimal Document.xml
     root_elem = ET.Element(f"{_NS}Map")
-    root_elem.set("xmlns", NS)
     
     one_topic = ET.SubElement(root_elem, f"{_NS}OneTopic")
     topic_elem = _build_topic_elem(mindmap.root)

@@ -1,5 +1,9 @@
 # mmap-tools
 
+[![Tests](https://github.com/lifehackjohn/mmap-tools/actions/workflows/test.yml/badge.svg)](https://github.com/lifehackjohn/mmap-tools/actions/workflows/test.yml)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/downloads/)
+
 Read, write, and convert MindJet MindManager `.mmap` files. Pure Python, zero dependencies.
 
 ## Features
