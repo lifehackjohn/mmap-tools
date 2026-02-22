@@ -26,6 +26,9 @@ classifiers = [
 [project.scripts]
 mmap-tools = "mmap_tools.cli:main"
 
+[tool.setuptools.package-data]
+mmap_tools = ["py.typed"]
+
 [project.urls]
 Homepage = "https://github.com/lifehackjohn/mmap-tools"
 Repository = "https://github.com/lifehackjohn/mmap-tools"
