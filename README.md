@@ -100,4 +100,4 @@ mmap_tools.write(m, "from_obsidian.mmap")
 
 ## License
 
-MIT
+AGPL-3.0 — see [LICENSE](LICENSE)
